@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="uTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>yina</title>
+<style type="text/css">
+	table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	
+	th, td {
+		padding: 15px;
+		}
+</style>
+</head>
+
+<body>
+
+	<p>colspan 열병합</p>
+	<table border="1">
+	
+		<tr>
+			<th width="50px">No.</th>
+			<th width="100px">이름</th>
+			<th width="100px">아이디</th>
+			<th width="100px">전화번호</th>
+			<th width="100px">별명</th>
+		</tr>
+	
+		<tr>
+			<th>1</th>
+			<th colspan="2">라이언</th>
+			<th colspan="2">없음</th>
+		</tr>
+			
+		<tr>
+			<th>2</th>
+			<th>라이언</th>
+			<th colspan="2">없음</th>
+			<th>없음</th>
+		</tr>	
+	</table>
+	
+	<p>rowspan 행병합</p>
+	<table border="1">
+	
+		<tr>
+			<th width="50px" rowspan="3">No.</th>
+			<th width="100px">이름</th>
+			<th width="100px">아이디</th>
+		</tr>
+	
+		<tr>
+			<th width="100px">라이언</th>
+			<th width="100px">lion</th>
+		</tr>	
+			
+		<tr>
+			<th width="100px">라이언</th>
+			<th width="100px">lion</th>
+		</tr>		
+	</table>	
+	 
+</body>
+</html>
