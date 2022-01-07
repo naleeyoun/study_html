@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+	<meta charset="uTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	
+	<form action="" method="get" id="form" name="form" enctype="multipart/form-data">
+	
+		<input type="time" id="time" name="time">
+		<br><input type="time" id="time1" name="time1" value="12:12:12">
+		<br><input type="time" id="time2" name="time2" value="12:12">
+	
+	</form>
+	
+			<script type="text/javascript">
+		function here() {
+			alert("time: " + document.getElementById("time").value);
+			document.getElementById("form").submit();
+		}
+	
+	</script>
+
+	
+</body>
+</html>

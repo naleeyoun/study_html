@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+	<meta charset="uTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	
+	<form action="" method="get" id=form name=form enctype="multipart/form-data">
+	
+		<input type="week" id="week" name="week">
+		<br><input type="week" id="week1" name="week1" value="2022-W02">
+		<br><input type="week" id="week2" name="week2" min="2022-W05">
+		<br><input type="week" id="week3" name="week3" max="2022-W10">
+		
+		<input type="submit" value="submit">
+		
+	</form>
+	
+			<script type="text/javascript">
+		function here() {
+			alert("week: " + document.getElementById("week").value);
+			document.getElementById("form").submit();
+		}
+	
+	</script>
+
+	
+</body>
+</html>

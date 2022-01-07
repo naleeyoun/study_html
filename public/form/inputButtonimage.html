@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+<meta charset="uTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+
+<body>
+
+	<form action="" method="get" id="form" name=""
+		enctype="multipart/form-data">
+
+		<input type="text" id="id" name="id"> 		
+		<input type="button" value="제출" onclick="here();">		
+		<input type="image" src="../2.image/button.png" width="50px">
+		
+
+	</form>
+
+	<script type="text/javascript">
+		function here() {
+			alert("id: " + document.getElementById("id").value);
+			document.getElementById("form").submit();
+		}
+	</script>
+
+<!-- 	file:///D:/factory/ws_sts_4130/study_html/public/form/inputButtonimage.html?id=
+ -->
+
+</body>
+</html>
