@@ -16,9 +16,21 @@
 </head>
 <body>
 
-	<div class="container bg-danger">asdf</div>
-	<div class="container-fluid bg-primary">asdf</div>
-
+	<div class="container bg-danger">.container는 각 브레이크포인트 별로 최대 가로사이즈가 정해져 있다.</div>
+	<div class="container" style="background-color: orange;">1400 ~ :: 1320</div>
+	<div class="container" style="background-color: orange;">1200 ~ 1400 :: 1140</div>
+	<div class="container" style="background-color: orange;">992 ~ 1200 :: 960</div>
+	<div class="container" style="background-color: orange;">768 ~ 992 :: 720</div>
+	<div class="container" style="background-color: orange;">576 ~ 768 :: 540</div>
+	<div class="container" style="background-color: orange;"> ~ 576 :: 100%</div>
+	
+	<div class="container-fluid bg-primary">.container-fluid는 각 브레이크포인트와 상관없이 항상 가로사이즈가 100%이다.</div>
+	<br>
+	<div class="container-sm" style="background-color:orange;">100% < <b>576(sm)</b> < 540 : 720 : 960 : 1140 : 1320</div>
+	<div class="container-md" style="background-color:red;">100% < <b>768(md)</b> < 720 : 960 : 1140 : 1320</div>
+	<div class="container-lg" style="background-color:yellow;">100% < <b>992(lg)</b> < 960 : 1140 : 1320</div>
+	<div class="container-xl" style="background-color:green;">100% < <b>1200(xl)</b> < 1140 : 1320</div>
+	<div class="container-xxl" style="background-color:blue;">100% < <b>1400(xxl)</b> < 1320</div>
 
 
 
